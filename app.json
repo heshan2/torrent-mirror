@@ -22,7 +22,7 @@
       },
       "GDRIVE_FOLDER_ID": {
         "description": "This is the folder ID of the Google Drive Folder ,Where you want to upload  mirrors.",
-        "required": true
+        "value": "1qMULmgaWre2u1r56daFGoiQfMWSVGsGY"
       },
       "DOWNLOAD_DIR": {
         "description": "The path to the local folder where the downloads should be downloaded to.",
@@ -31,20 +31,20 @@
       },
       "DOWNLOAD_STATUS_UPDATE_INTERVAL": {
         "description": "A short interval of time in seconds after which the Mirror progress message is updated. (I recommend to keep it 5 seconds at least).",
-        "value": "5",
+        "value": "2",
         "required":false
       },
       "OWNER_ID": {
         "description": "The Telegram User ID of the Owner of the Bot. Get it by using /info in @MissRose_bot.",
-        "required": true
+        "value": "1478823692"
       },
       "AUTO_DELETE_MESSAGE_DURATION": {
         "description": "Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. Note: Set to -1 to never automatically delete messages.",
-        "required": true
+        "value": "30"
       },
       "IS_TEAM_DRIVE": {
         "description": "Set to 'True' if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.",
-        "required": false
+        "value": "True"
       },
       "USE_SERVICE_ACCOUNTS": {
         "description": "Whether to use Service Accounts or not. For this to work see 'Using Service Accounts' in repo.",
@@ -64,15 +64,15 @@
       },
       "TELEGRAM_API": {
         "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
-        "required": true
+        "value": "2449398"
       },
       "TELEGRAM_HASH": {
         "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
-        "required": true
+        "value": "0a22407a75b22e206c9b2c000aa89d26"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from https://dashboard.heroku.com/account.",
-        "required": true
+        "value": "6ccc5ec3-bc9e-43a8-af80-81fccaa3c80e"
       },
       "HEROKU_APP_NAME": {
         "description": "Add the Heroku app name here.",
@@ -80,7 +80,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "Link for Bot Upstream Repo, If you want default update, Fill https://github.com/breakdowns/slam-mirrorbot.",
-        "value": "https://github.com/breakdowns/slam-mirrorbot",
+        "value": "https://github.com/heshan2/torrent-mirror",
         "required": true
       },
       "UPSTREAM_BRANCH": {
@@ -106,11 +106,11 @@
       },
       "BLOCK_MEGA_FOLDER": {
         "description": "If you want to remove mega.nz folder support, set it to True.",
-        "required": false
+        "value": "True"
       },
       "BLOCK_MEGA_LINKS": {
         "description": "If you want to remove mega.nz mirror support, set it to True.",
-        "required": false
+        "value": "True"
       },
       "TORRENT_DIRECT_LIMIT": {
         "description": "To limit the Torrent/Direct mirror size, Leave space between number and unit. Available units is (gb or GB, tb or TB).",
