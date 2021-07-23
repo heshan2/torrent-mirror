@@ -1,9 +1,9 @@
 [![rdx](https://telegra.ph/file/09e1d481796754f082705.jpg)](
 http://t.me/A_T_Heshan)
 
-⭕ **RDX Mirror Bot**
+⭕ **Torrent Mirror Bot**
 
-**RDX Mirror Bot** is a multipurpose Telegram Bot writen in Python for mirroring files on the Internet to our beloved Google Drive.
+**Torrent Mirror Bot** is a multipurpose Telegram Bot writen in Python for mirroring files on the Internet to our beloved Google Drive.
 
 # Features supported:
 
