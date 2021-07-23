@@ -18,7 +18,7 @@ SCOPES = ['https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/a
           'https://www.googleapis.com/auth/iam']
 project_create_ops = []
 current_key_dump = []
-sleep_time = 30
+sleep_time = 10
 
 
 # Create count SAs in project
