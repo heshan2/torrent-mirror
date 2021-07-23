@@ -1,15 +1,15 @@
 {
-    "name": "slam-mirrorbot",
+    "name": "😊Torrent-Mirror😊",
     "description": "A Telegram bot for all your mirror needs",
-    "logo": "https://telegra.ph/file/6507910fd06d18dfaba82.jpg",
+    "logo": "https://telegra.ph/file/09e1d481796754f082705.jpg",
     "keywords": [
       "bot",
       "telegram",
       "python"
     ],
-    "repository": "https://github.com/breakdowns/slam-mirrorbot",
-    "website": "https://github.com/breakdowns/slam-mirrorbot",
-    "success_url": "https://t.me/SlamMirrorSupport",
+    "repository": "https://github.com/heshan2/torrent-mirror",
+    "website": "https://github.com/heshan2/torrent-mirror",
+    "success_url": "http://t.me/A_T_Heshan",
     "stack": "container",
     "env": {
       "ENV": {
@@ -17,11 +17,11 @@
         "value": "ANYTHING"
       },
       "BOT_TOKEN": {
-        "description": "The telegram bot token that you get from @BotFather.",
+        "description": "The telegram bot token , you get it from @BotFather.",
         "required": true
       },
       "GDRIVE_FOLDER_ID": {
-        "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
+        "description": "This is the folder ID of the Google Drive Folder ,Where you want to upload  mirrors.",
         "required": true
       },
       "DOWNLOAD_DIR": {
@@ -201,12 +201,12 @@
       },
       "FINISHED_PROGRESS_STR": {
         "description": "Single character for finished progress",
-        "value": "●",
+        "value": "🌀",
         "required": false
       },
       "UNFINISHED_PROGRESS_STR": {
         "description": "Single character for unfinished progress",
-        "value": "○",
+        "value": "🔎",
         "required": false
       },
       "STATUS_LIMIT": {
